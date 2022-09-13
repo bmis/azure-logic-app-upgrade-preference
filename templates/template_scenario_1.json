@@ -291,7 +291,7 @@
                                         "HideHTMLMessage": false,
                                         "Importance": "Normal",
                                         "Options": "Approve, Reject",
-                                        "ShowHTMLConfirmationDialog": false,
+                                        "ShowHTMLConfirmationDialog": true,
                                         "Subject": "Approval Request for @{triggerBody()?['data']?['alertContext']?['properties']?['title']} @{variables('ase_name')} in @{triggerBody()?['data']?['alertContext']?['properties']?['region']} region.",
                                         "To": "@parameters('parm_logicapp_EmailAddress')",
                                         "UseOnlyHTMLMessage": true
