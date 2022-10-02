@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "logicapp_name": {
-            "defaultValue": "MyLogicApp",
+            "defaultValue": "logic-asedemo-prod-01",
             "type": "string",
             "metadata": {
                 "comment": "Your Logic app name."
@@ -46,7 +46,7 @@
             "type": "string"
         },
         "EmailAddress": {
-            "defaultValue": "email@test.pl",
+            "defaultValue": "EmailAddress",
             "type": "string"
         }
     },
